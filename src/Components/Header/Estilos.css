@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;300&display=swap');
+
+.Container__Nav{
+    display: flex;
+}
+.Logo__Header{
+    width: 180px;
+    
+
+}
+.logo__principal{
+    width: 220px;
+    margin-top: 1px;
+}
+
+.Conteiner_background{
+    background-color: rgb(10, 9, 9);
+
+}
+.container-fluid{
+    margin: 0 4rem;
+    height: 2.8rem;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    margin: 0 0.8rem;
+    font-size: 12px;
+   
+    font-family: 'Poppins', sans-serif;
+}
+.nav-link:hover{
+    color: rgb(65, 201, 255);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border-bottom: 1px solid rgb(22, 153, 204);
+  
+}
+
+
+
+
+@media screen and (max-width: 1680px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 160px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 35px;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 165px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 50px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 160px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 30px;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 1360px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 150px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 1344px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+    
+}
+
+/*responsividade iphone XR*/
+@media screen and (max-width: 414px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 18px;
+        padding: 0;
+    }
+    
+}
+
+/*responsividade Iphone 12 pro*/
+@media screen and (max-width: 390px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+        margin: 10px 20px;
+        padding: 0;
+    }
+}
+
+
+
+/*responsividade iphone SE*/
+@media screen and (max-width: 375px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+      
+       
+        margin: 10px 15px;
+        padding: 0;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 140px;
+  
+    }
+    .container-fluid{
+        display: flex;
+      
+       
+        margin: 10px 10px;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 280px) {
+    .Container__Nav{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Logo__Header{
+        width: 135px;
+  
+    }
+    .container-fluid{
+        display: flex;
+      
+       
+        margin: 10px 10px;
+        padding: 0;
+    }
+    
+}
