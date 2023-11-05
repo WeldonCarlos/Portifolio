@@ -7,3 +7,15 @@
     height: 600px;
 
 }
+
+
+@media screen and (max-width: 1920px) {
+
+    .Conteiner__Certificados{
+        display: flex;
+        height: 900px;
+    
+    }
+    
+
+}

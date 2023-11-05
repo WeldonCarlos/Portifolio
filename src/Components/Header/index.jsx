@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll'
 
 import './Estilos.css'
-import Logo from '../../assets/Image/ThallyssonLogo.webp'
+import Logo from '../../assets/Image/Weldon.png'
 
 
 export default function Header() {

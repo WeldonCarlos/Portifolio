@@ -24,19 +24,63 @@
 .nav-link {
     color: rgb(255, 255, 255);
     padding: 1rem 2rem;
-    margin: 0 0.8rem;
+    margin: 0 0.5rem;
     font-size: 12px;
    
     font-family: 'Poppins', sans-serif;
 }
 .nav-link:hover{
     color: rgb(65, 201, 255);
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: all 0.5s;
     border-bottom: 1px solid rgb(22, 153, 204);
   
 }
 
+
+
+
+@media screen and (max-width: 1920px) {
+   
+.Container__Nav{
+    display: flex;
+}
+.Logo__Header{
+    width: 180px;
+    
+
+}
+.logo__principal{
+    width: 220px;
+    margin-top: 1px;
+}
+
+.Conteiner_background{
+    background-color: rgb(10, 9, 9);
+    height: 10vh;
+
+}
+.container-fluid{
+    margin: 0 4rem;
+    height: 2.8rem;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 1rem 2rem;
+
+    font-size: 15px;   
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0.8rem;
+}
+.nav-link:hover{
+    color: rgb(0, 114, 229);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border-bottom: 1px solid rgb(0, 114, 229);
+  
+}
+}
 
 
 
@@ -101,12 +145,14 @@
     }
     .Logo__Header{
         width: 150px;
+     
   
     }
     .container-fluid{
         display: flex;
-        margin: 10px 20px;
+        margin: 15px 20px;
         padding: 0;
+        height: 3rem;
     }
 }
 

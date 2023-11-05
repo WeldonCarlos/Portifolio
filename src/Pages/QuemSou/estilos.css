@@ -1,9 +1,219 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&family=Share+Tech+Mono&display=swap');
 
 
 
-.Conteiner__QuemSou{
-    display: flex;
-    height: 600px;
-
+@media screen and (max-width: 1920px ) {
+    
+    .Conteiner__QuemSou{
+        display: flex;
+        height: 900px;
+        flex-direction: column;
+        justify-content:space-around;
+    
+    
+        background-color: rgb(10, 9, 9);
+    }
+    .Conteiner__GeralQuemsou{
+        display: flex;
+        align-items: center;
+    
+        margin-top: -1vh;
+       
+    }
+    
+    .SobreMim__Titulo{
+          display: flex;  
+          margin-bottom: 1rem;
+          flex-direction: column;
+        
+    }
+    
+    .Skills__Titulo{
+        display: flex;  
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    
+    .Texto__Titulo{
+        color: aliceblue;
+        font-family: 'Share Tech';
+    
+    }
+    .Texto__TituloHabilidades{
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Share Tech';
+    }
+    
+    .Conteiner__SobreMim{
+        display: flex;
+        background-color: rgb(53, 56, 56);
+        border-radius: 5px;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 620px;
+        width: 1200px;
+    }
+    
+    .Conteiner__Habilidades{
+        display: flex;
+        background-color: rgb(53, 56, 56);
+        border-radius: 5px;
+        justify-content: center;
+        margin-top: 20px;
+        height: 622px;
+        width: 450px;
+    }
+    
+    }
+@media screen and (max-width: 1366px){
+    .Conteiner__QuemSou{
+        display: flex;
+        height: 900px;
+        flex-direction: column;
+        background-color: rgb(10, 9, 9);
+    }
+    .Conteiner__GeralQuemsou{
+        display: flex;
+        margin-top: 3rem; 
+    }
+    
+    .SobreMim__Titulo{
+          display: flex;  
+          margin-bottom: 1rem;
+          flex-direction: column;
+        
+    }
+    
+    .Skills__Titulo{
+        display: flex;  
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    
+    .Texto__Titulo{
+        color: aliceblue;
+        font-family: 'Share Tech';
+    
+    }
+    .Texto__TituloHabilidades{
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Share Tech';
+    }
+    .Conteiner__GeralQuemsou{
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Conteiner__SobreMim{
+        display: flex;
+        background-color: rgb(53, 56, 56);
+        border-radius: 5px;
+        justify-content: center;
+        height: 420px;
+        width: 800px;
+    }
+    
+    .Conteiner__Habilidades{
+        display: flex;
+        background-color: rgb(53, 56, 56);
+        border-radius: 5px;
+        justify-content: center;
+        margin-top: 30px;
+        height: 422px;
+        width: 300px;
+    }
+    
 }
+@media screen and (max-width: 1360px){
+    .Conteiner__QuemSou{
+        display: flex;
+        height: 660px;
+        flex-direction: column;
+        background-color: rgb(10, 9, 9);
+        padding-bottom: 125px;
+    }
+    .Conteiner__GeralQuemsou{
+        display: flex;
+        margin-top: 3rem; 
+    }
+    
+    .SobreMim__Titulo{
+          display: flex;  
+          margin-bottom: 1rem;
+          flex-direction: column;
+          
+        
+    }
+    
+    .Skills__Titulo{
+        display: flex;  
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    
+    .Texto__Titulo{
+        color: aliceblue;
+        font-family: 'Share Tech';
+        
+    
+    }
+    .Texto__TituloHabilidades{
+        color: aliceblue;
+        font-size: 20px;
+        font-family: 'Share Tech';
+    }
+    .Conteiner__GeralQuemsou{
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Conteiner__SobreMim{
+        display: flex;
+        background-color: rgb(36, 36, 36);
+        border-radius: 5px;
+        justify-content: start;
+        height: 420px;
+        width: 680px;
+        padding: 15px;
+    }
+    .Texto__TituloSobreMim{
+        color: aliceblue;
+        font-family: 'Share Tech';
+        font-size: 28px;
+    }
+    .Texto__DescricaoSobreMim{
+        color: aliceblue;
+        font-family: 'Share Tech';
+    
+    }
+    .Conteiner__Habilidades{
+        display: flex;
+        background-color: rgb(36, 36, 36);
+        flex-direction: column;
+        border-radius: 5px;
+        justify-content: start;
+        margin-top: 30px;
+        padding: 15px;
+        height: 422px;
+        width: 400px;
+    }
+
+    .Texto__HabilidadeSobreMim{
+        color: aliceblue;
+        font-family: 'Share Tech';
+        font-size: 28px;
+    }
+    .Texto__HabilidadeDescricaoSobreMim{
+        color: aliceblue;
+        font-family: 'Share Tech';
+    
+    }
+    
+}
+
+
