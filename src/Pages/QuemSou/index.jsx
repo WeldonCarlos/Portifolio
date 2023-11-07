@@ -5,6 +5,8 @@ import LineHorizontal from '../../Components/LineHorizontal/index'
 import {FcAbout} from 'react-icons/fc'
 import {FaCheckCircle} from 'react-icons/fa'
 import {GiSkills} from 'react-icons/gi'
+import Skills from "../../Components/Skills";
+
 export default function QuemSou() {
   return (
     <section
@@ -40,10 +42,11 @@ Minha jornada é um testemunho da minha determinação em evoluir e me destacar 
         <div className="Conteiner__Habilidades"> 
          <h2 className="Texto__HabilidadeSobreMim" > Hard Skills</h2>
 
-        
-            <p>React </p>
       
-        
+           <Skills/>
+      
+
+
         </div>
       </div>
           

@@ -9,135 +9,93 @@ import "./style.css"
 import { FaReact,FaAngular,FaGithub,FaBootstrap,FaSalesforce,FaHtml5,FaCss3Alt} from 'react-icons/fa';
 import {BiLogoTailwindCss,BiLogoRedux,BiLogoGit, BiLogoJavascript, BiLogoJava,BiLogoPhp, BiLogoReact,BiLogoWordpress,BiLogoVuejs,BiLogoNodejs,BiLogoFirebase,BiLogoMongodb} from 'react-icons/bi'
 import {SiMysql,SiAxios,SiQuasar, SiMulesoft, SiTypescript} from 'react-icons/si';
-
-
-const Skills = [
-    { 
-        id: 1, 
-        icon: <FaReact size={22} color='#61dafb'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    { 
-        id: 2, 
-        icon: <FaHtml5 size={22} color='#EC722E'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {   
-        id: 3,
-        icon: <FaCss3Alt size={22}  color='#229FDC'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id:4,
-        icon: <BiLogoJavascript size={26} color='yellow'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id: 5,
-        icon: <SiTypescript size={20}  color='#009CD9'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id: 6,
-        icon: <FaSalesforce size={25}  color='#009CD9'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    
-    {
-        id: 7,
-        icon: <SiMulesoft size={20}  color='white'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {   
-        id: 8,
-        icon: <BiLogoGit size={25}  color='#e84e31'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id: 9,
-        icon: <FaGithub size={22} color='white'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id: 10,
-        icon: <FaBootstrap size={22} color="skyblue"/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    {
-        id: 11,
-        icon: <BiLogoRedux size={24} color='purple'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-   
-   
-    {
-        id:12,
-        icon: <BiLogoWordpress size={22} color='#207196'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-    
-    {
-        id:13,
-        icon: <BiLogoFirebase size={22} color='#F7C427'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    },
-
-    {
-        id:14,
-        icon: <SiAxios size={22} color='white'/>,
-        title: "React",
-        descriptionSkill: "",
-        starsSkill: 5,
-    }
-
-   
-
-]
-
-
+import IconReact from '../../assets/icones/structure.png'
 export default function Skills() {
+    const skills = [
+        { 
+            id: 1, 
+            icon: <img src={IconReact} style={{width:"50px",height:"50px"}} />,
+            title: "React",
+            descriptionSkill: "Tenho habilidades sólidas em React.js,incluindo Requisições HTTP com Axios.Utilização eficiente da Context API.Componentização eficaz, React Forms,Conhecimento em Redux.",
+            starsSkill: 5,
+        },
+        { 
+            id: 2, 
+            icon: <FaHtml5 size={22} color='#EC722E'/>,
+            title: "HTML 5",
+            descriptionSkill: "Tenho experiência em HTML5, incluindo,Estrutura e organização de páginas.Uso eficaz de semântica.Criação de listas e tabelas.Desenvolvimento de formulários e campos de entrada.Criação de links âncoras.Aplicação da hierarquia de títulos.Implementação de navegação com âncoras.Incorporação de conteúdo externo usando iframes.Essas habilidades me permitem criar páginas web bem estruturadas, interativas e acessíveis.",
+            starsSkill: 5,
+        },
+        {   
+            id: 3,
+            icon: <FaCss3Alt size={22}  color='#229FDC'/>,
+            title: "Css 3",
+            descriptionSkill: "Seletores avançados Arquitetura CSS3 moderna Uso de pseudo-classes como :hover e :active Estilização de texto Criação de sombras Domínio do modelo Flexbox Alinhamentos precisos Desenvolvimento de layouts responsivos Escolha e aplicação de cores Manipulação de cores de fundo Utilização de imagens de fundo Criação de gradientes Animações e transições Estilização por classe, ID e em linha Com essas habilidades, você é capaz de criar designs web sofisticados e interativos, garantindo uma experiência de usuário excepcional em suas páginas.",
+            starsSkill: 5,
+        },
+        {
+            id:4,
+            icon: <BiLogoJavascript size={26} color='yellow'/>,
+            title: "Javascript",
+            descriptionSkill: "Claro, aqui estão suas habilidades em JavaScript resumidas:VariáveisCondiçõesOperadores aritméticos e matemáticosFunçõesEstruturas de controle como switch Object LiteralsOperador ternárioUso do loop forEachManipulação de arraysUtilização de métodos de arrayOperações com arraysTemplate strings Com essas habilidades em JavaScript, você é capaz de desenvolver aplicações interativas e eficazes, manipulando dados e controlando o comportamento dinâmico das páginas web.",
+            starsSkill: 5,
+        },
+       
+        {
+            id: 5,
+            icon: <FaSalesforce size={25}  color='#009CD9'/>,
+            title: "Sales Force",
+            descriptionSkill: "Configuração e Personalização do Salesforce.Gerenciamento de Usuários e Permissões.Automação de Processos e Fluxos de Trabalho.Criação de Relatórios e Painéis.Integrações com outras ferramentas.Suporte e Treinamento para Usuários.Implementação de Políticas de Segurança de Dados.Manutenção e Atualização da Plataforma Salesforce.Com essas habilidades, sou capaz de administrar eficazmente a plataforma Salesforce, personalizando-a para atender às necessidades da organização, melhorando a eficiência e garantindo a segurança dos dados.",
+            starsSkill: 5,
+        },
+        
+        {
+            id: 6,
+            icon: <SiMulesoft size={20}  color='white'/>,
+            title: "MuleSoft",
+            descriptionSkill: "Integração de Sistemas,Desenvolvimento de APIs Transformação de Dados,Conectividade com Sistemas Diversos,Gerenciamento do Ciclo de Vida de APIs,Implementação de Segurança em APIs,Monitoramento e Análise,Resolução de Problemas de Integração,Com essas habilidades em MuleSoft, você é capaz de criar soluções de integração eficazes e seguras, melhorando a conectividade de sistemas e otimizando processos de negócios.",
+            starsSkill: 5,
+        },
+        {   
+            id: 7,
+            icon: <BiLogoGit size={25}  color='#e84e31'/>,
+            title: "Git",
+            descriptionSkill: "Inicialização de Repositório,Clonagem de Repositórios,Adição de Arquivos,Realização de Commits,Criação e Gerenciamento de Ramificações,Resolução de Conflitos de Merge,Visualização de Histórico,Trabalho com Repositórios Remotos,Criação de Tags e Releases,Configuração de .gitignore",
+            starsSkill: 5,
+        },
+      
+        {
+            id: 11,
+            icon: <BiLogoWordpress size={22} color='#207196'/>,
+            title: "Wordpress",
+            descriptionSkill: "Instalação e Configuração do WordPress,Gestão de Conteúdo,Personalização de Temas (Especialmente com o Astra),Construção de Páginas com o Elementor,Gerenciamento de Plugins,Otimização de Desempenho,SEO (Otimização de Mecanismos de Busca),Resolução de Problemas,Segurança,Backup e Restauração,Integração de Terceiros,Gerenciamento de Usuários,Atualizações Regulares",
+            starsSkill: 5,
+        },
+        
+     
+       
+    
+    ]
+    
+    
   return (
     
-    <div className='Conteiner__Scrolling'> 
-  <Swiper pagination={true} modules={[Autoplay]} autoplay={{delay: 1000}} loop slidesPerView={5} className="swiper">
+    <div className='Conteiner__ScrollingSkill'> 
+  <Swiper pagination={true} modules={[Autoplay]} autoplay={{delay: 1000}} loop slidesPerView={1} className="swiper">
 
-        {Skills.map((item) => {
+        {skills.map((item) => {
               return(  
-              <SwiperSlide key={item.id}>
-                    {item.icon}
+              <SwiperSlide className='swiper__Slide' key={item.id}>
+                   <p style={{color: "white",fontSize: "15px"}}>{item.icon}</p> 
+                   <p style={{color: "white",fontSize: "12px", }}>{item.descriptionSkill}</p>
+                   <p style={{color: "white",fontSize: "15px"}}>estrelas:{item.title}</p>
               </SwiperSlide>
               
               )
         })}
-   
   
-  </Swiper></div>
+  </Swiper>
+  </div>
   )
 }
 
