@@ -5,17 +5,65 @@
 .Conteiner__Certificados{
     display: flex;
     height: 600px;
-
+    background-color:'#0A0909';
 }
-
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 @media screen and (max-width: 1920px) {
 
     .Conteiner__Certificados{
         display: flex;
-        height: 900px;
+        height: 800px;
+        background-color:'#0A0909';
+    }
+    .Conteiner__Projetos{
+        display: flex;
+        height: 600px;
     
     }
-    
+    .Conteiner__TituloProjetos{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 45px;
+    }
+    .Titulo__Principal--Projetos{
+        color: aliceblue;
+    }
+    .Descricao__Principal--Projetos{
+        color: aliceblue;
+    }
+    .swiper {
+        width: 600px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
 
 }
